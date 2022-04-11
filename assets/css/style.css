@@ -10,6 +10,10 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+section {
+    padding: 60px;
+}
+
 /* padding order is CLOCKWISE: top, right, bottom, left */
 /* if only one padding number is specified, it's everywhere. If 2, top and bottom */
 /* can list out padding-bottom, etc. to specify certain spots if the shorthand is not compatable with the design */
@@ -53,6 +57,7 @@ header nav ul li a {
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 /*hero styling end*/
 
@@ -64,6 +69,9 @@ header nav ul li a {
     border-style: solid;
     border-color: #024e76;
     border-width: 3px;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
 
 footer {
@@ -88,8 +96,4 @@ footer div {
 
 footer a {
     color: #024e76;
-}
-
-section {
-    padding: 60px;
 }
