@@ -109,14 +109,19 @@ header nav ul li a {
     text-align: center;
 }
 
-.intro h2 {
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px #fce138 solid;
+    border-bottom: 3px solid;
     /*below code is used so the bottom border does not take up the entire block, changing it to inline*/
+    /*tge bottom border is longer than the h2 text BC of the padding we added*/
     display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
 }
 
 .intro p {
@@ -126,6 +131,39 @@ header nav ul li a {
     font-size: 20px;
     /*center a block element whose width is less than 100%, auto calculates margins*/
     margin: 0 auto;
+}
+
+.steps {
+    text-align: center;
+    background: #fce138
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
 }
 
 footer {
