@@ -18,7 +18,7 @@
 
 .secondary-content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
     color: #024e76;
 }
 
@@ -31,4 +31,8 @@
     font-size: 16px;
     line-height: 1.5;
     margin: 20px 0;
+}
+
+.secondary-content ul {
+    margin: 15px 20px;
 }
