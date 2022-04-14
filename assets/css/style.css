@@ -228,6 +228,7 @@ header nav ul li a {
  
  .contact-info div {
      width: 410px;
+     /*did not float like the hero. hero was ontop of bg image. this is just a column next to an element that's already placed*/
      display: inline-block;
      vertical-align: top;
      text-align: left;
