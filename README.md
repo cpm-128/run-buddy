@@ -1,4 +1,4 @@
-# Run Buddy Inc. LOCAL MERGE CONFLICT
+# Run Buddy Inc. LOCAL MERGE CONFLICT TO TEST
 
 ## Purpose
 A website that offers fitness training services.
