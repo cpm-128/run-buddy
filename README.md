@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc
 
 ## Purpose
 A website that offers fitness training services.
@@ -12,3 +12,5 @@ https://cpm-128.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by cpm-128
+
+### &copy;2019 Run Buddy, Inc
