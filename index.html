@@ -148,14 +148,29 @@
         <!--"reach out" section-->
         <section id="reach-out" class="contact">
             <h2 class="section-title secondary-border">Reach Out</h2>
-            <div class="contact-info">
-              <!--map--> 
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51980.25510577408!2d-82.62583834179686!3d35.48533439999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859ed3689572cbf%3A0xfd2b38e4215f4351!2sFleet%20Feet%20Asheville!5e0!3m2!1sen!2sus!4v1649860673747!5m2!1sen!2sus"
+            
+                <!--contact form-->
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" placeholder="Your Name" />
+                        <label for="contact-message">Message</label>
+                            <textarea id="contact-message" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <!--map--> 
+                <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51980.25510577408!2d-82.62583834179686!3d35.48533439999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8859ed3689572cbf%3A0xfd2b38e4215f4351!2sFleet%20Feet%20Asheville!5e0!3m2!1sen!2sus!4v1649860673747!5m2!1sen!2sus"
                 allowfullscreen="" 
                 loading="lazy">
-            </iframe>
+                </iframe>
+                </div>
+
               <!--cta and contact info--> 
-              <div>
+                <div class="contact-info">
                   <h3>Run Buddy</h3>
                   <p>
                       Any questions or converns before signing up?
@@ -170,6 +185,7 @@
                       E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                   </address>
                 </div>
+
         </section>
 
         <!--footer-->
