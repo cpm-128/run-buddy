@@ -51,7 +51,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     /*vw = viewport width. this adjusts the size of the text, like %, but vw is much more specific with respect to containers. use vw.*/
     font-size: 1.55vw;
@@ -65,6 +65,7 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 /*hero styling end*/
 
@@ -74,7 +75,7 @@ header nav ul li a {
     margin: 3.5%;
     color: #ffffff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -126,7 +127,7 @@ header nav ul li a {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     /*below code is used so the bottom border does not take up the entire block, changing it to inline*/
@@ -357,3 +358,19 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+/* LAPTOP, DESKTOP, AND LARGER SCREENS ARE THE DEFAULT CSS ABOVE @ =< 980PX */
+
+/* MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
+    @media screen and (max-width: 980px) {
+        
+    }
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+    @media screen and (max-width: 768px) {
+        
+    }
+
+/* MEDIA QUERTY FOR MOBILE PHONES AND SMALLER */
+    @media screen and (max-width: 575px) {
+       
+    }
