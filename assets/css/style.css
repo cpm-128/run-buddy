@@ -42,14 +42,19 @@ nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    /*vw = viewport width. this adjusts the size of the text, like %, but vw is much more specific with respect to containers. use vw.*/
+    font-size: 1.55vw;
 }
 
 /*hero styling*/
