@@ -92,9 +92,6 @@ header nav ul li a {
     border-style: solid;
     border-color: #024e76;
     border-width: 3px;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
 }
 
 .hero-form h3 {
