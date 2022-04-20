@@ -18,12 +18,23 @@ section {
 /* if only one padding number is specified, it's everywhere. If 2, top and bottom */
 /* can list out padding-bottom, etc. to specify certain spots if the shorthand is not compatable with the design */
 
+
+/*giving the hero and header the same bg image with attachment and position values is pretty cool*/
+
 header {
+    background-image: url("../images/hero-bg.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
     padding: 20px 35px;
-    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /*vendor prefix for Safari*/
+    position: -webkit-stick;
+    /*the standard should ALWAYS be after any vendor prefixes*/
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -63,7 +74,8 @@ header nav ul li a {
 .hero {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -367,6 +379,7 @@ footer a {
         header {
             padding-bottom: 0;
             justify-content: center;
+            position: relative;
         }
 
         header h1 {
